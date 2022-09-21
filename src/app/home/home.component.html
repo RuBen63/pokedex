@@ -1,0 +1,24 @@
+<app-header></app-header>
+
+<div class="columns is-mobile is-centered">
+<ngx-bulma-pagination [max]="90" [count]="10" (pageChange)="pageChange($event)" [isRounded]="true"></ngx-bulma-pagination>
+</div>
+
+<div *ngFor="let element of data?.results; let i = index">
+<div class="columns is-mobile is-multiline is-centered">
+  <div class="column">
+    <div class="card column is-half is-offset-one-quarter">
+
+        <div class="card-image">
+          <figure class="image is-3by2">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{i + 1 + inioPag}}.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <p style="font-size: 30px"><strong>{{element.name}}</strong></p>
+        </div>
+  </div>
+</div>
+</div>
+</div>
+<app-footer></app-footer>

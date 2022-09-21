@@ -1,0 +1,48 @@
+<app-header></app-header>
+<div class="column">
+  <div class="column">
+    <div class="field has-addons">
+      <div class="control" [formGroup]="nameForm" (ngSubmit)="buscar()">
+        <input formControlName="name" class="input" type="text"/>
+      </div>
+      <div class="control">
+        <button class="button is-success" (click)="buscar()">
+              <span class="icon is-small">
+                <i class="fas fa-search"></i>
+              </span>
+          <span>Buscar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="card" class="columns is-mobile is-multiline is-centered">
+  <div class="column">
+    <div class="card column is-half is-offset-one-quarter">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-128x128">
+              <img class="is-rounded" src='{{data.sprites.front_default}}'>
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">{{data.name}}</p>
+            <p class="subtitle is-6"><strong></strong></p>
+          </div>
+        </div>
+
+        <div class="content">
+          <strong>Experiencia:</strong><span>{{data.base_experience}}</span> <br>
+          <strong>HP:</strong> <span>{{data.stats[0].base_stat}}</span> <br>
+          <strong>Ataque:</strong> <span>{{data.stats[1].base_stat}}</span> <br>
+          <strong>Defensa:</strong>{{data.stats[2].base_stat}} <span></span> <br>
+          <strong>Especial:</strong>{{data.stats[3].base_stat}} <span></span> <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
