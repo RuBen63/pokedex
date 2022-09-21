@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1663784621437,
+  "index": "https://ruben63.github.io/pokedex/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ruben63.github.io/pokedex/favicon.ico",
+        "https://ruben63.github.io/pokedex/index.html",
+        "https://ruben63.github.io/pokedex/main.6630c681bab63cb7.js",
+        "https://ruben63.github.io/pokedex/manifest.webmanifest",
+        "https://ruben63.github.io/pokedex/polyfills.7fa47ac511bb52d7.js",
+        "https://ruben63.github.io/pokedex/runtime.24d7b08cd47aac36.js",
+        "https://ruben63.github.io/pokedex/styles.a5a952051ac8bbd6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ruben63.github.io/pokedex/assets/icons/icon-128x128.png",
+        "https://ruben63.github.io/pokedex/assets/icons/icon-144x144.png",
+        "https://ruben63.github.io/pokedex/assets/icons/icon-152x152.png",
+        "https://ruben63.github.io/pokedex/assets/icons/icon-192x192.png",
+        "https://ruben63.github.io/pokedex/assets/icons/icon-384x384.png",
+        "https://ruben63.github.io/pokedex/assets/icons/icon-512x512.png",
+        "https://ruben63.github.io/pokedex/assets/icons/icon-72x72.png",
+        "https://ruben63.github.io/pokedex/assets/icons/icon-96x96.png",
+        "https://ruben63.github.io/pokedex/assets/image/pokebola.png",
+        "https://ruben63.github.io/pokedex/material-icons-outlined.78a93b2079680a08.woff",
+        "https://ruben63.github.io/pokedex/material-icons-outlined.f86cb7b0aa53f0fe.woff2",
+        "https://ruben63.github.io/pokedex/material-icons-round.92dc7ca2f4c591e7.woff",
+        "https://ruben63.github.io/pokedex/material-icons-round.b10ec9db5b7fbc74.woff2",
+        "https://ruben63.github.io/pokedex/material-icons-sharp.3885863ee4746422.woff2",
+        "https://ruben63.github.io/pokedex/material-icons-sharp.a71cb2bf66c604de.woff",
+        "https://ruben63.github.io/pokedex/material-icons-two-tone.588d63134de807a7.woff",
+        "https://ruben63.github.io/pokedex/material-icons-two-tone.675bd578bd14533e.woff2",
+        "https://ruben63.github.io/pokedex/material-icons.4ad034d2c499d9b6.woff",
+        "https://ruben63.github.io/pokedex/material-icons.59322316b3fd6063.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ruben63.github.io/pokedex/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://ruben63.github.io/pokedex/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://ruben63.github.io/pokedex/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://ruben63.github.io/pokedex/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://ruben63.github.io/pokedex/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://ruben63.github.io/pokedex/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://ruben63.github.io/pokedex/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://ruben63.github.io/pokedex/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://ruben63.github.io/pokedex/assets/image/pokebola.png": "8e18143887072ef334e1f2216a524b066d890980",
+    "https://ruben63.github.io/pokedex/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://ruben63.github.io/pokedex/index.html": "d64a7d683041d3d8357552d28a736553323f8fd5",
+    "https://ruben63.github.io/pokedex/main.6630c681bab63cb7.js": "16ff3ab8ff84e6388bad5ce4b36df41f9d537887",
+    "https://ruben63.github.io/pokedex/manifest.webmanifest": "e3e36501aab6ae70302508e7d9bdf2b0e9a6f31a",
+    "https://ruben63.github.io/pokedex/material-icons-outlined.78a93b2079680a08.woff": "b52ccd8fca4199d257b2a9fe377db29862f2853e",
+    "https://ruben63.github.io/pokedex/material-icons-outlined.f86cb7b0aa53f0fe.woff2": "2f9e28ab559782402f27332633c843c40209d95a",
+    "https://ruben63.github.io/pokedex/material-icons-round.92dc7ca2f4c591e7.woff": "c41bfee3f01218e18d53f4f4cac00f385ac9fbb1",
+    "https://ruben63.github.io/pokedex/material-icons-round.b10ec9db5b7fbc74.woff2": "abe05e0641f1050fbe00ef0dbb10c5ea72c26cff",
+    "https://ruben63.github.io/pokedex/material-icons-sharp.3885863ee4746422.woff2": "cf1c7b4d066d18af44cf7bc664dd2e46652a3a30",
+    "https://ruben63.github.io/pokedex/material-icons-sharp.a71cb2bf66c604de.woff": "829cb48cb2dd17ae5e425b82dc186eb670694a10",
+    "https://ruben63.github.io/pokedex/material-icons-two-tone.588d63134de807a7.woff": "02225d888afe4eebc7312b7432878dc8aef1f50f",
+    "https://ruben63.github.io/pokedex/material-icons-two-tone.675bd578bd14533e.woff2": "296ff0bff395a77c2e33e7e31fffe73980bd93cf",
+    "https://ruben63.github.io/pokedex/material-icons.4ad034d2c499d9b6.woff": "e4bb7c1e40d3febee58df963db276b2bf68c117b",
+    "https://ruben63.github.io/pokedex/material-icons.59322316b3fd6063.woff2": "0bc0c675480d94ec7e8609dda6227f88c5d08d2c",
+    "https://ruben63.github.io/pokedex/polyfills.7fa47ac511bb52d7.js": "6c20f112c112c881baa56c221aa066039711d6c7",
+    "https://ruben63.github.io/pokedex/runtime.24d7b08cd47aac36.js": "f31e0e90c6affb43bc36f46c7df8fd8d9b467b7c",
+    "https://ruben63.github.io/pokedex/styles.a5a952051ac8bbd6.css": "83e7f2f49d330331aa261e6b7c614b92ab4b0a54"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
